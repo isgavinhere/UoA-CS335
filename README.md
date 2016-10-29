@@ -12,6 +12,6 @@ This repo exists because past attempts at this sort of thing have been a pretty 
 
 This also means that, to keep everything tidy and understandable, we have to be a little bit fussy when accepting answers. Please keep your commits to editing a single file, and only make pull requests for one or two commits at a time. This makes merging easier. 
 
-Keep your commits short and understandable, and follow [the seven rules](http://chris.beams.io/posts/git-commit/) of a good commit. If you're not sure, the commit messages for changes that have already been accepted should give you a pretty good idea.
+Keep your commits short and understandable, and follow the [seven rules of a good commit](http://chris.beams.io/posts/git-commit/). If you're not sure, the commit messages for changes that have already been accepted should give you a pretty good idea.
 
 If you're still unsure, or you'd just rather spend time studying than learning git, post a good explanation on the class facebook page. If you're nice, someone else might commit it for you!
