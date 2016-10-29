@@ -10,7 +10,7 @@ If you're not 100% confident with using GitHub, [this tutorial](https://guides.g
 
 This repo exists because past attempts at this sort of thing have been a pretty huge fail. By using GitHub, we can control who edits what, and make sure the answers in the documents here are correct (or at least, pretty close).
 
-This also means that, to keep everything tidy and understandable, we have to be a little bit fussy when accepting answers. Please keep your commits to editing a single file, and only make pull requests for one or two commits at a time. This makes merging easier. 
+This also means that, to keep everything tidy and understandable, we have to be a little bit fussy when accepting answers. Please keep your commits to editing a single file, and only make pull requests for one or two commits at a time. This makes merging easier. If you're contributing a new answer, make sure to follow the CSV format and to contain your explanations in double quotes.
 
 Keep your commits short and understandable, and follow the [seven rules of a good commit](http://chris.beams.io/posts/git-commit/). If you're not sure, the commit messages for changes that have already been accepted should give you a pretty good idea.
 
