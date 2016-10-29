@@ -35,16 +35,16 @@ Question #, Answers (ABCDE), Explanation
 34,-,-
 35,-,-
 36,-,-
-37,A,XOR operations are commutative and associative, thus if X and Y are true, Z is too. X and Y are true; this can be quickly proved using a truth-table.
+37,A,"XOR operations are commutative and associative, thus if X and Y are true, Z is too. X and Y are true; this can be quickly proved using a truth-table."
 38,-,-
 39,-,-
 40,-,-
-41,C,Both X and Y are required for cryptographic hash functions. Z is not.
+41,C,"Both X and Y are required for cryptographic hash functions. Z is not."
 42,-,-
-43,A,MACs provide integrity, Digital Signatures provide authentication, Encryption provides confidentiality.
+43,A,"MACs provide integrity, Digital Signatures provide authentication, Encryption provides confidentiality."
 44,-,-
 45,-,-
-46,A,The implication is that if both client and server use the same keys, each host will be unable to distinguish its own messages from the other's.
+46,A,"The implication is that if both client and server use the same keys, each host will be unable to distinguish its own messages from the other's."
 47,-,-
 48,-,-
 49,-,-
