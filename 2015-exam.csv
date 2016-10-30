@@ -52,7 +52,7 @@ Question #, Answers (ABCDE), Explanation
 51,E,"Removing and escaping characters are both reasonable methods of avoiding SQLi attacks. Replacing characters with another random character is unreliable."
 52,C,"SQLCommand is a .NET class used to parameterise SQL queries. See https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlcommand(v=vs.110).aspx"
 53,C,"X, Y, Z are all potential security threats that may arise from an otherwise 'trusted' principal."
-54,-,-
+54,B,"An encrypted session identifier could just as easily be taken and used, an attacker does not need the plaintext identifier"
 55,B,"See '04 Web Security.pdf' (slide 62)."
 56,B,"See '04 Web Security.pdf' (slide 72)."
 57,C,"The uri and username are both sent by the client response. The password hash is sent indirectly via the response field. See '04 Web Security.pdf' (slide 74)."
