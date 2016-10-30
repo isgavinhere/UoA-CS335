@@ -1,6 +1,6 @@
 Question #, Answers (ABCDE), Explanation
-1,B,"This last expression creates an iterable containing the different lengths of strings found in sequence, .count() returns the number of different elements in that iterable"
-2,D,"This behaves the same as question 1, except with the added Select method, the lambda expression means Select has no extra effect in this case"
+1,B,"The expression creates an iterable IEnumerable which groups the strings by their length. The count() method returns the number of different elements in that iterable."
+2,D,"This behaves the same as Q1. The lambda expression s => s, does nothing, meaning Select() has no effect in this case."
 3,-,-
 4,C,"See /code/2015-exam.linq"
 5,E,"See /code/2015-exam.linq"
@@ -30,15 +30,15 @@ Question #, Answers (ABCDE), Explanation
 29,-,-
 30,-,-
 31,-,-
-32,C,"See Assignment 2"
-33,E,"See 03 HTTP.pdf, page 13, all request headers are optional in HTTP 1.0"
-34,D,"k shift 7 => r Therefore; p shift 7 => x"
+32,C,"See Assignment 2."
+33,E,"See 03 HTTP.pdf (page 13), all request headers are optional in HTTP 1.0."
+34,D,"p shift 7 = x."
 35,C,"The script runs before the browser has rendered the body, so the document.querySelector() call returns nothing."
 36,A,"Both X, Y are valid JSON objects. Z is a valid JSON value, but not a valid JSON object. See http://www.json.org/."
 37,A,"XOR operations are commutative and associative, thus if X and Y are true, Z is too. X and Y are true; this can be quickly proved using a truth-table."
 38,A,"Common distances between repeated letter groups = {'hwd': 20, 'sexl': 44, 'alo': 28}. These share 4 as a common divisor, making it the most likely key length."
 39,A,"Kasiski analysis is the name for the technique used in Q38. Frequency analysis is needed to crack the cypher once its length is discovered. See 215_Cryptography.pdf (slides 18-32)."
-40,D,"See /docs/OKP.txt".
+40,D,"See /docs/OKP.txt."
 41,C,"Both X and Y are required for cryptographic hash functions. Z is not."
 42,-,-
 43,A,"MACs provide integrity, Digital Signatures provide authentication, Encryption provides confidentiality."
@@ -57,5 +57,5 @@ Question #, Answers (ABCDE), Explanation
 56,-,-
 57,-,-
 58,-,-
-59,B,"XSS decieves the client, not the server; With CSRF the server is led to believe that the clients request is legitimate"
-60,D,"In this threat model a network user can send packets but not modify, drop, duplicate, nor intercept other packets. Source: 30th October revision session"
+59,B,"XSS involves decieving the client, not the server. CSRF involves leading the server to believe that the client request is legitimate."
+60,D,"In this threat model a network user can send packets but not modify, drop, duplicate, nor intercept other packets. Source: 30th October revision session."
