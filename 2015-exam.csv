@@ -56,6 +56,6 @@ Question #, Answers (ABCDE), Explanation
 55,B,"See '04 Web Security.pdf' (slide 62)."
 56,B,"See '04 Web Security.pdf' (slide 72)."
 57,C,"The uri and username are both sent by the client response. The password hash is sent indirectly via the response field. See '04 Web Security.pdf' (slide 74)."
-58,B,"Autenticated users may be compromised or inadvertently provide malicious data (See Q53!). Reversing and re-reversing data does not achieve anything useful." 
+58,B,"Autenticated users may be compromised or inadvertently provide malicious data (See Q53). Reversing and re-reversing data does not achieve anything useful."
 59,B,"XSS involves decieving the client, not the server. CSRF involves leading the server to believe that the client request is legitimate."
 60,D,"In this threat model a network user can send packets but not modify, drop, duplicate, nor intercept other packets. Source: 30th October revision session."
