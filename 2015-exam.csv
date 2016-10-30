@@ -34,11 +34,11 @@ Question #, Answers (ABCDE), Explanation
 33,E,"See 03 HTTP.pdf, page 13, all request headers are optional in HTTP 1.0"
 34,D,"k shift 7 => r Therefore; p shift 7 => x"
 35,C,"The script runs before the browser has rendered the body, so the document.querySelector() call returns nothing."
-36,-,-
+36,A,"Both X, Y are valid JSON objects. Z is a valid JSON value, but not a valid JSON object. See http://www.json.org/."
 37,A,"XOR operations are commutative and associative, thus if X and Y are true, Z is too. X and Y are true; this can be quickly proved using a truth-table."
-38,-,-
-39,-,-
-40,-,-
+38,A,"Common distances between repeated letter groups = {'hwd': 20, 'sexl': 44, 'alo': 28}. These share 4 as a common divisor, making it the most likely key length."
+39,A,"Kasiski analysis is the name for the technique used in Q38. Frequency analysis is needed to crack the cypher once its length is discovered. See 215_Cryptography.pdf (slides 18-32)."
+40,D,"See /docs/OKP.txt".
 41,C,"Both X and Y are required for cryptographic hash functions. Z is not."
 42,-,-
 43,A,"MACs provide integrity, Digital Signatures provide authentication, Encryption provides confidentiality."

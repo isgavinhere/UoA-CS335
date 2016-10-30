@@ -1,0 +1,43 @@
+﻿1. Convert plaintext into 8-bit ASCII.
+
+h = 01101000
+o = 01101111
+u = 01110101
+s = 01110011
+e = 01100101
+
+2. Convert  the first cyphertext into binary.
+
+6A = 01101010
+6B = 01101011
+7D = 01111101
+7F = 01111111
+66 = 01100110
+
+3. XOR each entry in (1) with the corresponding entry in (2). As XOR is self-inverse, the result will be the original OTP key.
+
+XOR(01101000, 01101010) =  0000010
+XOR(01101111, 01101011) = 00000100
+XOR(01110101, 01111101) = 00001000
+XOR(01110011, 01111111) = 00001100
+XOR(01100101, 01100110) = 00000011
+
+4. Convert the second cyphertext into binary.
+
+70 = 01110000
+6B = 01101011 
+7D = 01111101
+7F = 01111111
+66 = 01100110
+
+5. XOR the OTP key with the second cyphertext, and convert the result back to 8-bit ASCII.
+
+XOR(00000010, 01110000) = 01110010 = r
+XOR(00000100, 01101011) = 01101111 = o
+XOR(00001000, 01111101) = 01110101 = u
+XOR(00001100, 01111111) = 01110011 = s
+XOR(00000011, 01100110) = 01100101 = e
+
+Note: Doing all this in an exam is pretty time-consuming. The trick is in the multichoice format. Most of the time the selections will only differ by one or two lettters. 
+This means you can get away with only doing the below steps for the letters in these positions, which should significantly speed things up!
+
