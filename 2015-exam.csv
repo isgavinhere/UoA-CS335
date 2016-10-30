@@ -6,9 +6,9 @@ Question #, Answers (ABCDE), Explanation
 5,E,"See /code/2015-exam.linq"
 6,D,"See /code/2015-exam.linq"
 7,D,"See /code/2015-exam.linq"
-8,-,-
-9,-,-
-10,-,-
+8,C,"See /code/2015-exam.linq"
+9,D,"See /code/2015-exam.linq"
+10,A,"See /code/2015-exam.linq"
 11,D,"See /code/2015-exam.linq"
 12,A,"See /code/2015-exam.linq"
 13,C,"See /code/2015-exam.linq"
@@ -29,7 +29,7 @@ Question #, Answers (ABCDE), Explanation
 28,-,-
 29,-,-
 30,-,-
-31,-,-
+31,C,"The <isbn> element is not specified in the given schema."
 32,C,"See Assignment 2."
 33,E,"See 03 HTTP.pdf (page 13), all request headers are optional in HTTP 1.0."
 34,D,"p shift 7 = x."
