@@ -47,10 +47,10 @@ Question #, Answers (ABCDE), Explanation
 46,A,"The implication is that if both client and server use the same keys, each host will be unable to distinguish its own messages from the other's."
 47,-,-
 48,E,"See https://pthree.org/2011/04/06/convert-text-to-base-64-by-hand/ for detailed instructions"
-49,-,-
-50,-,-
-51,-,-
-52,-,-
+49,B,"All three have to be trusted, to some extent, in order to access the internet. Source: 30th October revision session."
+50,A,"W = CSRF (w/ malicious code), X = XSS (w/ relatively harmless code), Y = SQLi, Z = HTML injection. In order of severity, SQLi > CSRF > XSS > HTML injection.
+51,E,"Removing and escaping characters are both reasonable methods of avoiding SQLi attacks. Replacing characters with another random character is unreliable."
+52,C,"SQLCommand is a .NET class used to parameterise SQL queries. See https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlcommand(v=vs.110).aspx"
 53,-,-
 54,-,-
 55,-,-
