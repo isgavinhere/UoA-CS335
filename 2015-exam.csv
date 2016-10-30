@@ -46,7 +46,7 @@ Question #, Answers (ABCDE), Explanation
 45,B,"The passwords are too difficult to crack which eliminates X and Z"
 46,A,"The implication is that if both client and server use the same keys, each host will be unable to distinguish its own messages from the other's."
 47,-,-
-48,-,-
+48,E,"See https://pthree.org/2011/04/06/convert-text-to-base-64-by-hand/ for detailed instructions"
 49,-,-
 50,-,-
 51,-,-
