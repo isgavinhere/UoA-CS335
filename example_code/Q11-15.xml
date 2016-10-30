@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<points>
+  <dot colour='red'>
+    <point>
+      <x>10</x>
+      <y>10</y>
+    </point>
+  </dot>
+  <dot colour='blue'>
+    <point>
+      <x>20</x>
+      <y>20</y>
+    </point>
+  </dot>
+  <dot colour='white'>
+    <point>
+      <x>30</x>
+      <y>30</y>
+      <z>30</z>
+    </point>
+  </dot>
+  <dot colour='red'>
+    <point>
+      <x>40</x>
+      <y>40</y>
+      <z>40</z>
+    </point>
+  </dot>
+  <dot>
+    <point>
+      <x>50</x>
+      <y>50</y>
+      <z>50</z>
+    </point>
+  </dot>
+</points>
