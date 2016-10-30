@@ -57,5 +57,5 @@ Question #, Answers (ABCDE), Explanation
 56,-,-
 57,-,-
 58,-,-
-59,-,-
-60,-,-
+59,B,"XSS decieves the client, not the server; With CSRF the server is led to believe that the clients request is legitimate"
+60,D,"In this threat model a network user can send packets but not modify, drop, duplicate, nor intercept other packets. Source: 30th October revision session"
