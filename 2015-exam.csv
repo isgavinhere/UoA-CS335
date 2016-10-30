@@ -45,7 +45,7 @@ Question #, Answers (ABCDE), Explanation
 44,B,"One could say this is a trick, all elements listed could be untrustworthy, however we must trust all three to some degree"
 45,B,"The passwords are too difficult to crack which eliminates X and Z"
 46,A,"The implication is that if both client and server use the same keys, each host will be unable to distinguish its own messages from the other's."
-47,E,"TLS uses MAC-then-Encrypt, meaning that the integrity of the plaintext is provided (but not cyphertext). TLS uses digital signatures to certify public key ownership, thus authenticity is also provided, 
+47,E,"TLS uses MAC-then-Encrypt, meaning that the integrity of the plaintext is provided (but not cyphertext). TLS uses digital signatures to certify public key ownership, thus authenticity is also provided."
 48,E,"See https://pthree.org/2011/04/06/convert-text-to-base-64-by-hand/ for detailed instructions"
 49,B,"All three have to be trusted, to some extent, in order to access the internet. Source: 30th October revision session."
 50,A,"W = CSRF (w/ malicious code), X = XSS (w/ relatively harmless code), Y = SQLi, Z = HTML injection. In order of severity, SQLi > CSRF > XSS > HTML injection."
