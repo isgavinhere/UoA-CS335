@@ -1,7 +1,7 @@
 Question #, Answers (ABCDE), Explanation
 1,B,"The expression creates an iterable IEnumerable which groups the strings by their length. The count() method returns the number of different elements in that iterable."
 2,D,"This behaves the same as Q1. The lambda expression s => s, does nothing, meaning Select() has no effect in this case."
-3,-,-
+3,9,"Select() returns list of groups, whereas SelectMany() returns each element inside each of those lists."
 4,C,"See /code/2015-exam.linq"
 5,E,"See /code/2015-exam.linq"
 6,D,"See /code/2015-exam.linq"
@@ -40,10 +40,10 @@ Question #, Answers (ABCDE), Explanation
 39,A,"Kasiski analysis is the name for the technique used in Q38. Frequency analysis is needed to crack the cypher once its length is discovered. See 215_Cryptography.pdf (slides 18-32)."
 40,D,"See /docs/OKP.txt."
 41,C,"Both X and Y are required for cryptographic hash functions. Z is not."
-42,-,-
+42,B,"The question should be read as 'what are desired qualities of a web application with integrity', source, 30th October revision session."
 43,A,"MACs provide integrity, Digital Signatures provide authentication, Encryption provides confidentiality."
-44,-,-
-45,-,-
+44,B,"One could say this is a trick, all elements listed could be untrustworthy, however we must trust all three to some degree"
+45,B,"The passwords are too difficult to crack which eliminates X and Z"
 46,A,"The implication is that if both client and server use the same keys, each host will be unable to distinguish its own messages from the other's."
 47,-,-
 48,-,-
