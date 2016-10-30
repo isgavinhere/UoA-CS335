@@ -45,15 +45,15 @@ Question #, Answers (ABCDE), Explanation
 44,B,"One could say this is a trick, all elements listed could be untrustworthy, however we must trust all three to some degree"
 45,B,"The passwords are too difficult to crack which eliminates X and Z"
 46,A,"The implication is that if both client and server use the same keys, each host will be unable to distinguish its own messages from the other's."
-47,-,-
+47,E,"TLS uses MAC-then-Encrypt, meaning that the integrity of the plaintext is provided (but not cyphertext). TLS uses digital signatures to certify public key ownership, thus authenticity is also provided, 
 48,E,"See https://pthree.org/2011/04/06/convert-text-to-base-64-by-hand/ for detailed instructions"
 49,B,"All three have to be trusted, to some extent, in order to access the internet. Source: 30th October revision session."
 50,A,"W = CSRF (w/ malicious code), X = XSS (w/ relatively harmless code), Y = SQLi, Z = HTML injection. In order of severity, SQLi > CSRF > XSS > HTML injection."
 51,E,"Removing and escaping characters are both reasonable methods of avoiding SQLi attacks. Replacing characters with another random character is unreliable."
 52,C,"SQLCommand is a .NET class used to parameterise SQL queries. See https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlcommand(v=vs.110).aspx"
-53,-,-
+53,C,"X, Y, Z are all potential security threats that may arise from an otherwise 'trusted' principal."
 54,-,-
-55,-,-
+55,B,"See '04 Web Security.pdf' (slide 62)."
 56,B,"See '04 Web Security.pdf' (slide 72)."
 57,C,"The uri and username are both sent by the client response. The password hash is sent indirectly via the response field. See '04 Web Security.pdf' (slide 74)."
 58,B,"Autenticated users may be compromised or inadvertently provide malicious data (See Q53!). Reversing and re-reversing data does not achieve anything useful." 
