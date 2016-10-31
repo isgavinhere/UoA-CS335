@@ -2,24 +2,39 @@
 
 Solutions to past COMPSCI 335 exams/tests.
 
-This repo only exists based on student contributions. If you have an answer that you think may be useful to others, please go ahead and open a pull request!
+This repo only exists based on student contributions. If you have an answer 
+that you think may be useful to others, please go ahead and open a pull request!
 
-If you're not 100% confident with using GitHub, [this tutorial](https://guides.github.com/activities/contributing-to-open-source/) should get you up-to-speed pretty quickly.
+If you're not 100% confident with using GitHub, [this tutorial](https://guides.github.com/activities/contributing-to-open-source/) 
+should get you up-to-speed pretty quickly.
 
 ## Why?
 
-This repo exists because past attempts at this sort of thing have been a pretty huge fail. By using GitHub, we can control who edits what, and make sure the answers in the documents here are correct (or at least, pretty close).
+This repo exists because past attempts at this sort of thing have been a pretty 
+huge fail. By using GitHub, we can control who edits what, and make sure the 
+answers in the documents here are correct (or at least, pretty close).
 
 ## How can I contribute?
 
-To keep everything tidy and understandable, we have to be a little bit fussy when accepting answers. Please keep your commits to editing a single file, and only make pull requests for one or two commits at a time. This makes merging easier. If you're contributing a new answer, make sure to follow the CSV format and to contain your explanations in double quotes. Keep your commits short and understandable, and follow the [seven rules of a good commit](http://chris.beams.io/posts/git-commit/). If you're not sure, the commit messages for changes that have already been accepted should give you a pretty good idea.
+To keep everything tidy and understandable, we have to be a little bit fussy 
+when accepting answers. Please keep your commits to editing a single file, and 
+only make pull requests for one or two commits at a time. This makes merging 
+easier. If you're contributing a new answer, make sure to follow the CSV format 
+and to contain your explanations in double quotes. Keep your commits short and 
+understandable, and follow the [seven rules of a good commit](http://chris.beams.io/posts/git-commit/). 
+If you're not sure, the commit messages for changes that have already been 
+accepted should give you a pretty good idea.
 
-If you're still unsure, or you'd just rather spend time studying than learning git, post a good explanation on the class facebook page. If you're nice, someone else might commit it for you!
+If you're still unsure, or you'd just rather spend time studying than learning 
+git, post a good explanation on the class facebook page. If you're nice, 
+someone else might commit it for you!
 
 ## What's all that other stuff?
 
-Some answers don't fit neatly into a CSV file. `/example_code` contains linqpad code, `/doc` is for all other miscellaneous stuff.
+Some answers don't fit neatly into a CSV file. `example_code/` contains linqpad 
+code, `doc/` is for all other miscellaneous stuff.
 
-Alongside the CSV solutions, we've included a small grader script which you can use to automate the marking of your answers. Just populate the relevant text file in the /anwers directory with your answers (keeping the hyphens for incomplete answers!), and do a quick `python3 ./grader.py`.
-
-
+Alongside the CSV solutions, we've included a small grader script which you can 
+use to automate the marking of your answers. Just populate the relevant text 
+file in the `my_answers/` directory with your answers (keeping the hyphens for 
+incomplete answers!), and do a quick `python3 ./grader.py`.

@@ -1,6 +1,6 @@
 import csv
 
-ANSWER_DIR = 'answers/'
+ANSWER_DIR = 'my_answers/'
 
 EXAM_2015_SOLUTIONS = '2015-exam.csv'
 EXAM_2015_ANSWERS   = ANSWER_DIR + '2015-exam-answers.txt'
