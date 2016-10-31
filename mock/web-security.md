@@ -19,3 +19,15 @@ Which of the following is true of users in a threat model?
 * E. X and Y only
 
 ---
+
+### Q2
+
+Which of the following is a true statement with regards to web-applications?
+
+* A. All client-side code could potentially be misused
+* B. CSS injection is a serious threat to a web-application
+* C. Minifying your Javascript will never change the functionality of the web-app
+* D. There are only a few Javascript frameworks to learn and standards rarely change
+* E. HTML4 adopted new semantic tags to make web development more streamlined
+
+---
