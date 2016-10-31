@@ -18,7 +18,7 @@ If you're still unsure, or you'd just rather spend time studying than learning g
 
 ## What's all that other stuff?
 
-Some answers don't fit neatly into a CSV file. The /example_code directory contains linqpad code, and the /doc directory is for all other miscellaneous stuff.
+Some answers don't fit neatly into a CSV file. `/example_code` contains linqpad code, `/doc` is for all other miscellaneous stuff.
 
 Alongside the CSV solutions, we've included a small grader script which you can use to automate the marking of your answers. Just populate the relevant text file in the /anwers directory with your answers (keeping the hyphens for incomplete answers!), and do a quick `python3 ./grader.py`.
 
