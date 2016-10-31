@@ -1,0 +1,3 @@
+Question #, Answers (ABCDE), Explanation
+1,C,"Threat model layers include the capabilities of lower layers"
+2,A,"Any code you ship with a web-app can be run and used by end users at will. Source on minifed js: https://diracdeltas.github.io/blog/backdooring-js/"
