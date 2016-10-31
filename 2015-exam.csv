@@ -28,7 +28,7 @@ Question #, Answers (ABCDE), Explanation
 27,-,-
 28,-,-
 29,-,-
-30,-,-
+30,D,"Document 1 is malformed, Document 2 lacks the Blogentry field."
 31,C,"The <isbn> element is not specified in the given schema."
 32,C,"See Assignment 2."
 33,E,"See 03 HTTP.pdf (page 13), all request headers are optional in HTTP 1.0."
