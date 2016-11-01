@@ -50,7 +50,7 @@ Question #, Answers (ABCDE), Explanation
 49,B,"All three have to be trusted, to some extent, in order to access the internet. Source: 30th October revision session."
 50,A,"W = CSRF (w/ malicious code), X = XSS (w/ relatively harmless code), Y = SQLi, Z = HTML injection. In order of severity, SQLi > CSRF > XSS > HTML injection."
 51,E,"Removing and escaping characters are both reasonable methods of avoiding SQLi attacks. Replacing characters with another random character is unreliable."
-52,C,"SQLCommand is a .NET class used to parameterise SQL queries. See https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlcommand(v=vs.110).aspx"
+52,D,"SqlCommand is a .NET class used to control a databse. However it does not directly protect from injection, the SqlParameter class has this responsibility"
 53,B,"Y and Z are all potential security threats that may arise from an otherwise 'trusted' principal. Source: 30th October revision session."
 54,B,"An encrypted session identifier could just as easily be taken and used, an attacker does not need the plaintext identifier"
 55,B,"See '04 Web Security.pdf' (slide 62)."
