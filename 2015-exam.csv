@@ -32,7 +32,7 @@ Question #, Answers (ABCDE), Explanation
 31,C,"The <isbn> element is not specified in the given schema."
 32,C,"See Assignment 2."
 33,E,"See 03 HTTP.pdf (page 13), all request headers are optional in HTTP 1.0."
-34,D,"p shift 7 = w."
+34,B,"p shift 7 = w."
 35,C,"The script runs before the browser has rendered the body, so the document.querySelector() call returns nothing."
 36,A,"Both X, Y are valid JSON objects. Z is a valid JSON value, but not a valid JSON object. See http://www.json.org/."
 37,A,"XOR operations are commutative and associative, thus if X and Y are true, Z is too. X and Y are true; this can be quickly proved using a truth-table."
