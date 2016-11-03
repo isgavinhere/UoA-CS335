@@ -24,13 +24,13 @@ Question #, Answers (ABCDE), Explanation
 23,-,-
 24,-,-
 25,-,-
-26,-,-
+26,D,"X is a very low effect script, so it must be in the bottom part of the list, Where as Y is a high-risk sql injection"
 27,-,-
 28,-,-
 29,-,-
-30,-,-
-31,-,-
-32,-,-
+30,A,"Encrypted session id's don't really help, as they can be replayed without an attacker knowing the plain-text"
+31,C,""
+32,B,"Authenicated users can still send malicious data"
 33,-,-
 34,-,-
 35,-,-
