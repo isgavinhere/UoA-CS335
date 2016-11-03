@@ -1,6 +1,6 @@
 Question #, Answers (ABCDE), Explanation
-1,-,-
-2,-,-
+1,E,"Others were all false.."
+2,E,"Checksums are non sufficient on their own to ensure integrity. MACs are multi step processes with keys, not just a checksum"
 3,-,-
 4,-,-
 5,-,-
